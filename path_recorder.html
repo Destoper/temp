@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		<script type="importmap"> 	
+			{	
+				"imports": {	"three"         : "/Assets/scripts/three.js/build/three.module.js",
+								"gui"			: "/Assets/scripts/three.js/examples/jsm/libs/lil-gui.module.min.js",
+								"gltf-loader"  	: "/Assets/scripts/three.js/examples/jsm/loaders/GLTFLoader.js",
+								"orb-cam-ctrl"  : "/Assets/scripts/three.js/examples/jsm/controls/OrbitControls.js",
+								"fpcam-ctrl"	: "/Assets/scripts/three.js/examples/jsm/controls/FirstPersonControls.js"
+							}
+			}
+		</script>
+
+		<script type="module" src="path_recorder.js"></script>
+	</body>
+</html>
